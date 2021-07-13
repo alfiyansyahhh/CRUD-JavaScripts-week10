@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>product</title>
+</head>
+<body>
+    <header>
+        <div class="primary-header">
+            <img src="img/menu (1).png">
+        </div>
+        <div class="secondary-header">
+            <p>Foods item</p>
+        </div>
+        <div class="tertiary-header">
+            <img width="30px" height="30" src="img/search.png">
+        </div>
+        <div id="fourthiary-header">
+            <p id="cart-notif">cart</p>
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12.5" cy="12.5" r="12.5" fill="#57CAD5"/> 
+            </svg>  
+            <p id="qty-cart"></p>          
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div>
+                <img src="img/fork.png">
+            </div>
+            <div>
+                <img src="img/clipboard.png">
+            </div>
+            <div>
+                <img src="img/add.png">
+            </div>
+        </nav>
+        <article>
+            <div id="product">
+            </div>
+        </article>
+        <aside>
+            <div id="cart"></div>
+            <div id="total">
+                <div id="total2">Total : </div>
+                <div id="priceTotal"></div>
+            </div>     
+            <div class="ppn">*Belum termasuk ppn</div>
+            <button class="checkout" onclick="alert('hai')">Checkout</button>
+            <button id="cancel" onclick="cancel()">Cancel</button> 
+        </aside>
+    </main>
+</body>
+</html>
+
+<script src="js/DATABASE/data.js"></script>
+<script src="js/index.js"></script>
+
